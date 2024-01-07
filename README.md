@@ -99,3 +99,5 @@ _Further details on the methodology and results are described in the report (Ikh
 1.	Impute values to use as replacements for missing values in the input data. We replace missing data because Regression and Neural Network models ignore observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
+### Comparing Models
+1. Compare the statistical performance and use that performance measure to select the champion model.
