@@ -76,8 +76,10 @@ Benefits:
   - Integration with SAS Analytics: Seamless integration with other SAS tools for end-to-end analytics.
   - Model Interpretability: Provides insights into model interpretations, variable importance, and performance metrics.
 
-## 5. Methodology
+_Further details on the methodology and results are described in the report (Ikhwan_22076332_AA1)._
 
+
+## 5. Methodology 
 
 ### Setting Up an Enterprise Miner Project
 1.	Create a new SAS Enterprise Miner Project
@@ -93,8 +95,7 @@ Benefits:
 1.	Automatically train a full decision tree and prune it to size, selecting split rules to maximize the split decision logworth.
 2.	Interactively train a decision tree, and then select candidate split rules from a list.
 3.	Use gradient boosting approach to form a single predictive model from a set of decision trees.
-### Impute, Transform, Regression & Neural Models
+### Impute, Transform, Regression
 1.	Impute values to use as replacements for missing values in the input data. We replace missing data because Regression and Neural Network models ignore observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
-4.	Create and add a neural network model.
