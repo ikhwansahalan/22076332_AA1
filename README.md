@@ -61,6 +61,18 @@ Columns:
 **4. Software:**
 In the context of the project described, SAS Enterprise Miner can play distinct roles in various stages of the data analysis and modeling process. SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
 
+Role:
+Advanced Analytics and Modeling:
+  - SAS Enterprise Miner is primarily used for advanced analytics and predictive modeling. It provides a user-friendly interface for data mining, machine learning, and model deployment.
+  - In this project, SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
+
+Data Exploration and Preprocessing:
+  - While SAS Enterprise Miner is capable of handling some data preprocessing tasks, it might not have the same depth of data preparation capabilities as dedicated data preparation tools.
+
+Benefits:
+  - Integration with SAS Analytics: Seamless integration with other SAS tools for end-to-end analytics.
+  - Model Interpretability: Provides insights into model interpretations, variable importance, and performance metrics.
+
 # Setting Up an Enterprise Miner Project
 1.	Create a new SAS Enterprise Miner Project
 2.	Define a new SAS library for your sample data
