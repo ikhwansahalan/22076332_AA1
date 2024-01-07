@@ -76,6 +76,7 @@ Benefits:
   - Integration with SAS Analytics: Seamless integration with other SAS tools for end-to-end analytics.
   - Model Interpretability: Provides insights into model interpretations, variable importance, and performance metrics.
 
+
 _Further details on the methodology and results are described in the report (Ikhwan_22076332_AA1)._
 
 
@@ -83,10 +84,8 @@ _Further details on the methodology and results are described in the report (Ikh
 
 ### Setting Up an Enterprise Miner Project
 1.	Create a new SAS Enterprise Miner Project
-2.	Define a new SAS library for your sample data
-3.	Define a new SAS Enterprise Miner data source
-4.	Create a new SAS Enterprise Miner process flow diagram
-5.	Place the input data source on the process flow diagram
+2.	Create a new SAS Enterprise Miner process flow diagram
+3.	Place the input data source on the process flow diagram
 ### Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
 2.	Partition the input data into Training and Test data sets.
@@ -96,7 +95,7 @@ _Further details on the methodology and results are described in the report (Ikh
 2.	Interactively train a decision tree, and then select candidate split rules from a list.
 3.	Use gradient boosting approach to form a single predictive model from a set of decision trees.
 ### Impute, Transform, Regression
-1.	Impute values to use as replacements for missing values in the input data. We replace missing data because Regression and Neural Network models ignore observations that contain missing values.
+1.	Impute values to use as replacements for missing values in the input data. We replace missing data because Regression model ignore observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
 ### Comparing Models
