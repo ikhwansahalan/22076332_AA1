@@ -16,6 +16,48 @@ The dataset offers a comprehensive view of customer behavior within an e-commerc
 
 Source: Kaggle - E-commerce Customer for Behavior Analysis
 
+Columns:
+
+1. Customer ID:
+  - Type: Numeric
+  - Description: A unique identifier assigned to each customer.
+2. Gender:
+  - Type: Categorical (Male, Female)
+  - Description: Specifies the gender of the customer.
+3. Age:
+  - Type: Numeric
+  - Description: Represents the age of the customer, enabling age-group-specific insights.
+4. City:
+  - Type: Categorical (City names)
+  - Description: Indicates the city of residence for each customer, providing geographic insights.
+5. Membership Type:
+  - Type: Categorical (Gold, Silver, Bronze)
+  - Description: Identifies the type of membership held by the customer, influencing perks and benefits.
+6. Total Spend:
+  - Type: Numeric
+  - Description: Records the total monetary expenditure by the customer on the e-commerce platform.
+7. Items Purchased:
+  - Type: Numeric
+  - Description: Quantifies the total number of items purchased by the customer.
+8. Average Rating:
+  - Type: Numeric (0 to 5, with decimals)
+  - Description: Represents the average rating given by the customer for purchased items, gauging satisfaction.
+9. Discount Applied:
+  - Type: Boolean (True, False)
+  - Description: Indicates whether a discount was applied to the customer's purchase, influencing buying behavior.
+10. Days Since Last Purchase:
+  - Type: Numeric
+  - Description: Reflects the number of days elapsed since the customer's most recent purchase, aiding in retention analysis.
+11. Satisfaction Level:
+  - Type: Categorical (Satisfied, Neutral, Unsatisfied)
+  - Description: Captures the overall satisfaction level of the customer, providing a subjective measure of their experience.
+12. Favorite Category:
+  - Type: Categorical (‘Toys, Kids, & Babies’, 'Beauty & Personal Care', ‘Home & Living’, ‘Fashion’, ‘Games & Hobbies’, ‘Mobile & Gadgets’)
+  - Description: The category in which the customer most frequently shops.
+13. Churn:
+  - Type: Binomial
+  - Description: Indicates whether the customer has stopped purchasing (1 for churned, 0 for active).
+    
 **4. Software:**
 In the context of the project described, SAS Enterprise Miner, Talend Data Preparation, and Talend Data Integration can play distinct roles in various stages of the data analysis and modeling process.
 
