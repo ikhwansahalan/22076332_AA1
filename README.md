@@ -59,9 +59,7 @@ Columns:
   - Description: Indicates whether the customer has stopped purchasing (1 for churned, 0 for active).
     
 **4. Software:**
-In the context of the project described, SAS Enterprise Miner, Talend Data Preparation, and Talend Data Integration can play distinct roles in various stages of the data analysis and modeling process.
-
-
+In the context of the project described, SAS Enterprise Miner can play distinct roles in various stages of the data analysis and modeling process. SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
 
 # Setting Up an Enterprise Miner Project
 1.	Create a new SAS Enterprise Miner Project
@@ -82,13 +80,3 @@ In the context of the project described, SAS Enterprise Miner, Talend Data Prepa
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
 4.	Create and add a neural network model.
-
-## Project Overview
-# Objectives
-# The role of SAS Enterprise Miner
-# Talend Data Integration
-# Talend Data Preparation
-
-## Data Files
-# Datasets Used
-# How to access it
