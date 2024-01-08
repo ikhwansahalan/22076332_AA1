@@ -132,11 +132,7 @@ After acquiring and modifying the dataset, a new project in SAS Enterprise Miner
 
 Within the file import's 'Edit Variables' section, a few minor adjustments were made to the role and level column. The Customer_ID role was changed to ID, and Churn was chosen as the target variable for the analysis of customer behavior. Because it has a binary value, the level of Discount_Applied, Gender, and Churn were set to Binary. Apart from that, variables of Membership_Type and Satisfaction_Level were set to ordinal. Below are the general modifications made:
 
-![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
-
 ![Screenshot 2024-01-08 215002](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9deacb07-e410-49c6-b391-434881d27da2)
-
-![Screenshot 2024-01-08 215153](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8ccf1802-5697-4986-bc56-0b23d028e960)
 
 ### 3. Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
