@@ -17,42 +17,42 @@ The primary goal of this project is to predict customer churn within an e-commer
 In the context of the project described, Excel Spreadsheet, Talend Data Preparation, and SAS Enterprise Miner play distinct roles in various stages of the data analysis and modeling process;  
 
 **1. Excel Spreadsheet**  
-    **a) Data Exploration and Initial Analysis:**  
+**a) Data Exploration and Initial Analysis:**  
 
     - Excel can be used for the initial exploration of the dataset before importing it into SAS Enterprise Miner or other tools.  
     - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.   
 
-    **b) Data Cleaning and Preprocessing:**  
+**b) Data Cleaning and Preprocessing:**  
 
     - Excel can be employed for basic data cleaning and preprocessing tasks, such as handling missing values or correcting minor data entry errors.  
     - It can also be used to create derived variables or perform simple transformations.  
 
-    **Benefits:**  
+**Benefits:**  
     - Quick visual inspection of data. 
     - Easy calculation of summary statistics. 
     - Creation of new variables or features as needed.  
 
 **2. Talend Data Preparation:**  
-    **a) Data Cleaning and Transformation:**  
+**a) Data Cleaning and Transformation:**  
     - Talend Data Preparation focuses on data cleaning, transformation, and enrichment. It allows users to explore, clean, and manipulate data interactively.  
     - Ideal for handling missing values, transforming variables, and ensuring data quality.  
 
-    **b)Data Exploration and Profiling:**  
+**b) Data Exploration and Profiling:**  
     - Provides data profiling capabilities to understand the structure, quality, and patterns within the dataset.  
 
-    **Benefits:**  
+**Benefits:**  
     - User-Friendly Interface: Enables users to visually explore and manipulate data without extensive coding.  
     - Data Quality Improvement: Helps improve the quality of data by addressing issues such as missing values and outliers.  
 
 **3. SAS Enterprise Miner:**  
-Advanced Analytics and Modeling:  
+**a) Advanced Analytics and Modeling:**  
     - SAS Enterprise Miner is primarily used for advanced analytics and predictive modeling. It provides a user-friendly interface for data mining, machine learning, and model deployment.  
     - In this project, SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.  
 
-Data Exploration and Preprocessing:  
+**b) Data Exploration and Preprocessing:**
     - While SAS Enterprise Miner is capable of handling some data preprocessing tasks, it might not have the same depth of data preparation capabilities as dedicated data preparation tools.  
 
-Benefits:  
+**Benefits:**
     - Integration with SAS Analytics: Seamless integration with other SAS tools for end-to-end analytics.  
     - Model Interpretability: Provides insights into model interpretations, variable importance, and performance metrics.  
 
