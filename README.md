@@ -11,16 +11,37 @@ The primary goal of this project is to predict customer churn within an e-commer
 - Import the E-commerce Customer Behavior Dataset into SAS Enterprise Miner, handle missing values, and specify variable roles.
 - Create a decision tree model in SAS Enterprise Miner to analyze customer behavior and identify potential churn factors.
 - Apply boosting technique using the Random Forest algorithm to enhance predictive accuracy in identifying customer churn.
+    
+## 3. Software
+In the context of the project described, SAS Enterprise Miner can play distinct roles in various stages of the data analysis and modeling process;
 
-## 3. Datasets
+Advanced Analytics and Modeling:
+  - SAS Enterprise Miner is primarily used for advanced analytics and predictive modeling. It provides a user-friendly interface for data mining, machine learning, and model deployment.
+  - In this project, SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
 
-Title: E-commerce Customer Behavior Dataset
+Data Exploration and Preprocessing:
+  - While SAS Enterprise Miner is capable of handling some data preprocessing tasks, it might not have the same depth of data preparation capabilities as dedicated data preparation tools.
 
-Source: Kaggle - E-commerce Customer for Behavior Analysis
+Benefits:
+  - Integration with SAS Analytics: Seamless integration with other SAS tools for end-to-end analytics.
+  - Model Interpretability: Provides insights into model interpretations, variable importance, and performance metrics.
 
-Description: This dataset provides a comprehensive view of customer behavior within an e-commerce platform. Each entry in the dataset corresponds to a unique customer, offering a detailed breakdown of their interactions and transactions. The information is crafted to facilitate a nuanced analysis of customer preferences, engagement patterns, and satisfaction levels, aiding businesses in making data-driven decisions to enhance the customer experience. The target variable for this project will be the Churn variable. Its data type is Binomial and it indicates whether the customer has stopped purchasing (1 for churned, 0 for active). The rest of the independent variables consist of numeric, categorical, and Boolean as shown in the list below;
 
-Columns:
+_Further details on the methodology and results are described in the report (Ikhwan_22076332_AA1)._
+
+
+## 4. Methodology 
+
+### 1. Data Acquisition and Cleaning
+This exercise uses open-source data collected from Kaggle as in the following details: 
+
+**1)	Name:** E-commerce Customer Behavior Dataset
+
+**2)	Source:** https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis
+
+**3)	Description:** This dataset provides a comprehensive view of customer behavior within an e-commerce platform. Each entry in the dataset corresponds to a unique customer, offering a detailed breakdown of their interactions and transactions. The information is crafted to facilitate a nuanced analysis of customer preferences, engagement patterns, and satisfaction levels, aiding businesses in making data-driven decisions to enhance the customer experience. The target variable for this project will be the Churn variable. Its data type is Binomial and it indicates whether the customer has stopped purchasing (1 for churned, 0 for active). The rest of the independent variables consist of numeric, categorical, and Boolean as shown in the list below;
+
+**4)	Columns:**
 
 1. Customer ID:
   - Type: Numeric
@@ -61,26 +82,12 @@ Columns:
 13. Churn:
   - Type: Binomial
   - Description: Indicates whether the customer has stopped purchasing (1 for churned, 0 for active).
-    
-## 4. Software
-In the context of the project described, SAS Enterprise Miner can play distinct roles in various stages of the data analysis and modeling process;
 
-Advanced Analytics and Modeling:
-  - SAS Enterprise Miner is primarily used for advanced analytics and predictive modeling. It provides a user-friendly interface for data mining, machine learning, and model deployment.
-  - In this project, SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
+The selected dataset consists of 11 variables as shown in the list above. There were some modifications made to the existing dataset to implement the tools and functions for feature engineering and data cleaning for this study case. To complete the dataset for the analysis, 2 variables which are "Favourite Category" and "Churn" (Target Variable) were extendedly appended to the dataset using random sampling inside an Excel Spreadsheet as shown in the figure below:
+...
 
-Data Exploration and Preprocessing:
-  - While SAS Enterprise Miner is capable of handling some data preprocessing tasks, it might not have the same depth of data preparation capabilities as dedicated data preparation tools.
-
-Benefits:
-  - Integration with SAS Analytics: Seamless integration with other SAS tools for end-to-end analytics.
-  - Model Interpretability: Provides insights into model interpretations, variable importance, and performance metrics.
-
-
-_Further details on the methodology and results are described in the report (Ikhwan_22076332_AA1)._
-
-
-## 5. Methodology 
+After the dataset had been appended using Excel Spreadsheet, Talend Data Integration was then utilized to visually explore and address issues such as missing and invalid values from the variables. The figures below show the process done using Talend Data Integration.
+...
 
 ### Setting Up an Enterprise Miner Project
 Outline:
@@ -90,12 +97,9 @@ Outline:
 
 After collecting the dataset, a new project in SAS Enterprise Miner was set up. A new diagram was created in the project and placed the dataset into the File Import node as in the figure below;
 
-![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/6b6d605d-d220-41f7-b850-99139595736a)
+![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
 
-![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/4b2f352e-db05-49af-9ffb-4d88556e8b32)
-
-![Image1](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
-![Example Image](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
+![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/dbe7e247-9e31-4b05-82ed-f402cb71d34e)
    
 ### Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
