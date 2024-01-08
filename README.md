@@ -92,6 +92,8 @@ After collecting the dataset, a new project in SAS Enterprise Miner was set up. 
 
 ![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/6b6d605d-d220-41f7-b850-99139595736a)
 
+![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/4b2f352e-db05-49af-9ffb-4d88556e8b32)
+
 ![Image1](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
 ![Example Image](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
    
