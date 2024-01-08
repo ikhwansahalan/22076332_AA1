@@ -84,10 +84,14 @@ This exercise uses open-source data collected from Kaggle as in the following de
   - Description: Indicates whether the customer has stopped purchasing (1 for churned, 0 for active).
 
 The selected dataset consists of 11 variables as shown in the list above. There were some modifications made to the existing dataset to implement the tools and functions for feature engineering and data cleaning for this study case. To complete the dataset for the analysis, 2 variables which are "Favourite Category" and "Churn" (Target Variable) were extendedly appended to the dataset using random sampling inside an Excel Spreadsheet as shown in the figure below:
-...
 
-After the dataset had been appended using Excel Spreadsheet, Talend Data Integration was then utilized to visually explore and address issues such as missing and invalid values from the variables. The figures below show the process done using Talend Data Integration.
-...
+![Screenshot 2024-01-08 191747](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/d115ea9e-30e5-4c21-b91b-cedd9d34f4f0)
+
+After the dataset had been appended using Excel Spreadsheet, Talend Data Preparation was then utilized to visually explore and address issues such as missing and invalid values from the variables. The figures below show the process done using Talend Data Preparation.
+
+![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
+
+![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/dbe7e247-9e31-4b05-82ed-f402cb71d34e)
 
 ### Setting Up an Enterprise Miner Project
 Outline:
