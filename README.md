@@ -9,9 +9,9 @@ In the dynamic landscape of e-commerce, understanding and predicting customer be
 The primary goal of this project is to predict customer churn within an e-commerce platform using various classification models in SAS Enterprise Miner.
 
 ## 2. Objectives
-- Import the E-commerce Customer Behavior Dataset into SAS Enterprise Miner, handle missing values, and specify variable roles.
-- Create a decision tree model in SAS Enterprise Miner to analyze customer behavior and identify potential churn factors.
-- Apply boosting technique using the Random Forest algorithm to enhance predictive accuracy in identifying customer churn.
+- Import the E-commerce Customer Behavior Dataset into SAS Enterprise Miner, handle missing values, and specify variable roles.  
+- Create a decision tree model in SAS Enterprise Miner to analyze customer behavior and identify potential churn factors.  
+- Apply boosting technique using the Random Forest algorithm to enhance predictive accuracy in identifying customer churn.  
     
 ## 3. Software
 In the context of the project described, Excel Spreadsheet, Talend Data Preparation, and SAS Enterprise Miner play distinct roles in various stages of the data analysis and modeling process;
@@ -20,34 +20,34 @@ In the context of the project described, Excel Spreadsheet, Talend Data Preparat
 In the context of the described project, an Excel spreadsheet can play several roles at different stages of the data analysis and modeling process. Here are some potential roles for Excel in this project:
 
 Data Exploration and Initial Analysis:
-    - Excel can be used for the initial exploration of the dataset before importing it into SAS Enterprise Miner or other tools.
-    - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.
+    - Excel can be used for the initial exploration of the dataset before importing it into SAS Enterprise Miner or other tools.  
+    - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.  
 
 Benefits:
-    - Quick visual inspection of data.
-    - Easy calculation of summary statistics.
-    - Identification of potential data quality issues.
+    - Quick visual inspection of data.  
+    - Easy calculation of summary statistics.  
+    - Identification of potential data quality issues.  
 
 Data Cleaning and Preprocessing:
-    - Excel can be employed for basic data cleaning and preprocessing tasks, such as handling missing values or correcting minor data entry errors.
-    - It can also be used to create derived variables or perform simple transformations.
+    - Excel can be employed for basic data cleaning and preprocessing tasks, such as handling missing values or correcting minor data entry errors.  
+    - It can also be used to create derived variables or perform simple transformations.  
 
 Benefits:
-    - Immediate correction of minor data entry mistakes.
-    - Manual imputation of missing values based on available information.
-    - Creation of new variables or features as needed.
+    - Immediate correction of minor data entry mistakes.  
+    - Manual imputation of missing values based on available information.  
+    - Creation of new variables or features as needed.  
 
 **2. Talend Data Preparation:**
 Data Cleaning and Transformation:
-    - Talend Data Preparation focuses on data cleaning, transformation, and enrichment. It allows users to explore, clean, and manipulate data interactively.
-    - Ideal for handling missing values, transforming variables, and ensuring data quality.
+    - Talend Data Preparation focuses on data cleaning, transformation, and enrichment. It allows users to explore, clean, and manipulate data interactively.  
+    - Ideal for handling missing values, transforming variables, and ensuring data quality.  
 
 Data Exploration and Profiling:
-    - Provides data profiling capabilities to understand the structure, quality, and patterns within the dataset.
+    - Provides data profiling capabilities to understand the structure, quality, and patterns within the dataset.  
 
 Benefits:
-    - User-Friendly Interface: Enables users to visually explore and manipulate data without extensive coding.
-    - Data Quality Improvement: Helps improve the quality of data by addressing issues such as missing values and outliers.
+    - User-Friendly Interface: Enables users to visually explore and manipulate data without extensive coding.  
+    - Data Quality Improvement: Helps improve the quality of data by addressing issues such as missing values and outliers.  
 
 **3. SAS Enterprise Miner:**
 Advanced Analytics and Modeling:
