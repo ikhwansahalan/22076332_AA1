@@ -100,7 +100,8 @@ Outline:
 3.	Place the input data source on the process flow diagram
 
 After acquiring and modifying the dataset, a new project in SAS Enterprise Miner was set up. A diagram named "TEST" was created in the project and the dataset was imported into the File Import node as in the figure below;
-...
+
+![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
 
 ### 3. Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
@@ -108,10 +109,14 @@ After acquiring and modifying the dataset, a new project in SAS Enterprise Miner
 3.	Specify how SAS Enterprise Miner should handle missing data.
    
 The statistical data was then explored by combining the File Import node with the StatExplore node. There are 13 missing values in the Satisfaction_Level variable and 18 missing values in the Age variable. The StatExplore node results browser displays the following:
-...
+
+![Screenshot 2024-01-07 191932](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/a6735d95-8c42-4390-a3fe-283ff9f236f9)
+
+![Screenshot 2024-01-07 192150](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/6163ad1f-c962-4d07-a7a3-b28e12cd02b9)
+
+![Screenshot 2024-01-07 192211](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/1de3fe8a-11db-4ff6-af73-effaeaf9bf96)
 
 Now we want to partition the dataset into training and test sets. Partitioning the data helps to manage the quality of the model during fitting. Data Partition node was used to partition the data into 80% train and 20% test data sets. The example is shown in the diagram below;
-...
 
 After the data is partitioned, we extendedly prepare the data to replace some more missing values. The Replacement node was connected to the Data Partition node. In the Properties Panel, under Interval Variables, we set the Default Limits Method to None. None indicates that no interval variable values should be replaced. The default setting of Standard Deviations from the Mean would enforce a range of values for each interval variable, which is not suitable for this example. The configure class variable replacement is shown in the diagram below;
 ...
