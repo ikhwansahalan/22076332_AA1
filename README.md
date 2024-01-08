@@ -91,6 +91,7 @@ Outline:
 After collecting the dataset, a new project in SAS Enterprise Miner was set up. A new diagram was created in the project and placed the dataset into the File Import node as in the figure below;
 
 ![Image1](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
+![Example Image](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
    
 ### Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
