@@ -118,8 +118,11 @@ The statistical data was then explored by combining the File Import node with th
 
 Now we want to partition the dataset into training and test sets. Partitioning the data helps to manage the quality of the model during fitting. Data Partition node was used to partition the data into 80% train and 20% test data sets. The example is shown in the diagram below;
 
+![Screenshot 2024-01-07 193626](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/53350d22-39f5-4819-a791-ededb39845cd)
+
 After the data is partitioned, we extendedly prepare the data to replace some more missing values. The Replacement node was connected to the Data Partition node. In the Properties Panel, under Interval Variables, we set the Default Limits Method to None. None indicates that no interval variable values should be replaced. The default setting of Standard Deviations from the Mean would enforce a range of values for each interval variable, which is not suitable for this example. The configure class variable replacement is shown in the diagram below;
-...
+
+![Screenshot 2024-01-07 194301](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/57d72f05-8b3d-412d-a88f-f5cf3f33e81a)
 
 ### 4. Building Decision Trees
 Outline:
@@ -128,7 +131,8 @@ Outline:
 3.	Use a gradient-boosting approach to form a single predictive model from a set of decision trees.
 
 We will add several decision tree models to our diagram, and then evaluate their relative performance. Before we create multiple decision tree models, we will insert a Control Point node in our diagram. After that, we will drag and connect different models to evaluate which are the Decision Tree, Interactive Decision Tree, Gradient Boosting, and Regression. After configuring the properties and running the model, we will get the output result for each model. The examples are in the following diagram;
-...
+![Screenshot 2024-01-07 195732](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/799130d4-4ad8-404c-8368-e554d99a60b9)
+
 1
 ![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
 2
