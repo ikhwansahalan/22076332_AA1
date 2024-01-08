@@ -114,7 +114,7 @@ The statistical data was then explored by combining the File Import node with th
 
 ![Screenshot 2024-01-07 192150](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/6163ad1f-c962-4d07-a7a3-b28e12cd02b9)
 
-![Screenshot 2024-01-07 192211](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/1de3fe8a-11db-4ff6-af73-effaeaf9bf96)
+![Screenshot 2024-01-07 192305](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/5f9da77e-d08e-4407-8243-934a13f4a6cb)
 
 Now we want to partition the dataset into training and test sets. Partitioning the data helps to manage the quality of the model during fitting. Data Partition node was used to partition the data into 80% train and 20% test data sets. The example is shown in the diagram below;
 
