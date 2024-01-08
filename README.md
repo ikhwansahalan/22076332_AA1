@@ -89,9 +89,9 @@ The selected dataset consists of 11 variables as shown in the list above. There 
 
 After the dataset had been appended using Excel Spreadsheet, Talend Data Preparation was then utilized to visually explore and address issues such as missing and invalid values from the variables. The figures below show the process done using Talend Data Preparation.
 
-![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
-
 ![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/dbe7e247-9e31-4b05-82ed-f402cb71d34e)
+
+![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
 
 ### Setting Up an Enterprise Miner Project
 Outline:
@@ -101,9 +101,10 @@ Outline:
 
 After collecting the dataset, a new project in SAS Enterprise Miner was set up. A new diagram was created in the project and placed the dataset into the File Import node as in the figure below;
 
+![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/dbe7e247-9e31-4b05-82ed-f402cb71d34e)
+
 ![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
 
-![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/dbe7e247-9e31-4b05-82ed-f402cb71d34e)
    
 ### Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
