@@ -90,6 +90,8 @@ Outline:
 
 After collecting the dataset, a new project in SAS Enterprise Miner was set up. A new diagram was created in the project and placed the dataset into the File Import node as in the figure below;
 
+![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/6b6d605d-d220-41f7-b850-99139595736a)
+
 ![Image1](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
 ![Example Image](WhatsApp Image 2024-01-08 at 17.54.21.jpeg)
    
