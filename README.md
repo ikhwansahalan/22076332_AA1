@@ -126,7 +126,7 @@ Outline:
 2.	Create a new SAS Enterprise Miner process flow diagram
 3.	Place the input data source on the process flow diagram
 
-After acquiring and modifying the dataset, a new project in SAS Enterprise Miner was set up. A diagram named "TEST" was created in the project and the dataset was imported into the File Import node. The diagram below is the overall view of the workflow diagram that was implemented for this project:
+After acquiring and modifying the dataset, a new project in SAS Enterprise Miner was set up. A diagram named "TEST" was created in the project and the dataset was imported into the File Import node. The figure below is the overall view of the workflow diagram that was implemented for this project:
 
 ![Screenshot 2024-01-08 214906](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/b209aeb4-e96e-44ab-a675-ca5161d1e8f5)
 
@@ -157,13 +157,13 @@ After the data is partitioned, we extendedly prepare the data to replace some mo
 
 ![Screenshot 2024-01-07 194301](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/57d72f05-8b3d-412d-a88f-f5cf3f33e81a)
 
-### 4. Building Decision Trees
+### 4. Building Models
 Outline:
 1.	Automatically train a full decision tree and prune it to size, selecting split rules to maximize the split decision logworth.
 2.	Interactively train a decision tree, and then select candidate split rules from a list.
 3.	Use a gradient-boosting approach to form a single predictive model from a set of decision trees.
 
-We will add several decision tree models to our diagram, and then evaluate their relative performance. Before we create multiple decision tree models, we will insert a Control Point node in our diagram. After that, we will drag and connect different models to evaluate which are the Decision Tree, Interactive Decision Tree, Gradient Boosting, and Regression. After configuring the properties and running the model, we will get the output result for each model. The examples are in the following diagram;
+We will add several decision tree models to our diagram, and then evaluate their relative performance. Before we create multiple decision tree models, we will insert a Control Point node in our diagram. After that, we will drag and connect different models to evaluate which are the best performance models between Decision Tree, Interactive Decision Tree, Gradient Boosting, and Regression. After configuring the properties and running the model, we will get the output result for each model. The examples are in the following diagram;
 ![Screenshot 2024-01-07 195732](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/799130d4-4ad8-404c-8368-e554d99a60b9)
 
 1
