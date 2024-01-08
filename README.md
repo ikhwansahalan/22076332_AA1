@@ -148,10 +148,6 @@ We will add several decision tree models to our diagram, and then evaluate their
 ![Screenshot 2024-01-07 200129](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/ddffbc5c-9cf4-472b-a7e3-e392e8906ce6)
 12
 ![Screenshot 2024-01-07 200312](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9716e515-9176-4121-b7bc-bab2990261fd)
-13
-![Screenshot 2024-01-07 205024](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/81d933ec-1eac-4ac9-b26a-767e2d882d63)
-14
-![Screenshot 2024-01-08 191747](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/cb9f7c0b-85b8-41fa-949b-02fb48093131)
 ### 5. Impute, Transform, Regression
 1.	Impute values to use as replacements for missing values in the input data. We replace missing data because the Regression model ignores observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
