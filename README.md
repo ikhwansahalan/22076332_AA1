@@ -130,7 +130,9 @@ After acquiring and modifying the dataset, a new project in SAS Enterprise Miner
 
 ![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
 
+![Screenshot 2024-01-08 215153](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8ccf1802-5697-4986-bc56-0b23d028e960)
 
+![Screenshot 2024-01-08 215002](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9deacb07-e410-49c6-b391-434881d27da2)
 
 ### 3. Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
@@ -138,6 +140,8 @@ After acquiring and modifying the dataset, a new project in SAS Enterprise Miner
 3.	Specify how SAS Enterprise Miner should handle missing data.
    
 The statistical data was then explored by combining the File Import node with the StatExplore node. There are 13 missing values in the Satisfaction_Level variable and 18 missing values in the Age variable. The StatExplore node results browser displays the following:
+
+![Screenshot 2024-01-08 214906](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/b209aeb4-e96e-44ab-a675-ca5161d1e8f5)
 
 ![Screenshot 2024-01-07 191932](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/a6735d95-8c42-4390-a3fe-283ff9f236f9)
 
