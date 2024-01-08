@@ -83,7 +83,7 @@ This exercise uses open-source data collected from Kaggle as in the following de
   - Type: Binomial
   - Description: Indicates whether the customer has stopped purchasing (1 for churned, 0 for active).
 
-The selected dataset consists of 11 variables as shown in the list above. There were some modifications made to the existing dataset to implement the tools and functions for feature engineering and data cleaning for this study case. To complete the dataset for the analysis, 2 variables which are "Favourite Category" and "Churn" (Target Variable) were extendedly appended to the dataset using random sampling inside an Excel Spreadsheet as shown in the figure below:
+The selected dataset consists of 11 variables as shown in the list above. There were some modifications made to the existing dataset to implement the tools and functions for feature engineering and data cleaning for this study case. To complete the dataset for the analysis, 2 variables which are "Favourite Category" and "Churn" (Target Variable) were then appended to the dataset using random sampling inside an Excel Spreadsheet as shown in the figure below:
 
 ![Screenshot 2024-01-08 191747](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/d115ea9e-30e5-4c21-b91b-cedd9d34f4f0)
 
@@ -93,30 +93,41 @@ After the dataset had been appended using Excel Spreadsheet, Talend Data Prepara
 
 ![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
 
-### Setting Up an Enterprise Miner Project
+### 2. Setting Up an Enterprise Miner Project
 Outline:
 1.	Create a new SAS Enterprise Miner Project
 2.	Create a new SAS Enterprise Miner process flow diagram
 3.	Place the input data source on the process flow diagram
 
-After collecting the dataset, a new project in SAS Enterprise Miner was set up. A new diagram was created in the project and placed the dataset into the File Import node as in the figure below;
+After acquiring and modifying the dataset, a new project in SAS Enterprise Miner was set up. A diagram named "TEST" was created in the project and the dataset was imported into the File Import node as in the figure below;
+...
 
-![WhatsApp Image 2024-01-08 at 17 54 20](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/dbe7e247-9e31-4b05-82ed-f402cb71d34e)
-
-![WhatsApp Image 2024-01-08 at 17 54 21](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/8c8688ec-cb23-417e-b15d-bbd21aeab76f)
-
-   
-### Exploring Input Data and Replacing Missing Values
+### 3. Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
 2.	Partition the input data into Training and Test data sets.
 3.	Specify how SAS Enterprise Miner should handle missing data.
-### Building Decision Trees
+   
+The statistical data was then explored by combining the File Import node with the StatExplore node. There are 13 missing values in the Satisfaction_Level variable and 18 missing values in the Age variable. The StatExplore node results browser displays the following:
+...
+
+Now we want to partition the dataset into training and test sets. Partitioning the data helps to manage the quality of the model during fitting. Data Partition node was used to partition the data into 80% train and 20% test data sets. The example is shown in the diagram below;
+...
+
+After the data is partitioned, we extendedly prepare the data to replace some more missing values. The Replacement node was connected to the Data Partition node. In the Properties Panel, under Interval Variables, we set the Default Limits Method to None. None indicates that no interval variable values should be replaced. The default setting of Standard Deviations from the Mean would enforce a range of values for each interval variable, which is not suitable for this example. The configure class variable replacement is shown in the diagram below;
+...
+
+### 4. Building Decision Trees
+Outline:
 1.	Automatically train a full decision tree and prune it to size, selecting split rules to maximize the split decision logworth.
 2.	Interactively train a decision tree, and then select candidate split rules from a list.
 3.	Use a gradient-boosting approach to form a single predictive model from a set of decision trees.
-### Impute, Transform, Regression
+
+We will add several decision tree models to our diagram, and then evaluate their relative performance. Before we create multiple decision tree models, we will insert a Control Point node in our diagram. After that, we will drag and connect different models to evaluate which are the Decision Tree, Interactive Decision Tree, Gradient Boosting, and Regression. After configuring the properties and running the model, we will get the output result for each model. The examples are in the following diagram;
+...
+
+### 5. Impute, Transform, Regression
 1.	Impute values to use as replacements for missing values in the input data. We replace missing data because the Regression model ignores observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
-### Comparing Models
+### 6. Comparing Models
 1. Compare the statistical performance and use that performance measure to select the champion model.
