@@ -17,36 +17,30 @@ The primary goal of this project is to predict customer churn within an e-commer
 In the context of the project described, Excel Spreadsheet, Talend Data Preparation, and SAS Enterprise Miner play distinct roles in various stages of the data analysis and modeling process;  
 
 **1. Excel Spreadsheet**  
-<u>Data Exploration and Initial Analysis:</u>  
+    **a) Data Exploration and Initial Analysis:**  
 
     - Excel can be used for the initial exploration of the dataset before importing it into SAS Enterprise Miner or other tools.  
-    - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.  
+    - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.   
 
-<u>Benefits:</u>  
-
-    - Quick visual inspection of data.  
-    - Easy calculation of summary statistics.  
-    - Identification of potential data quality issues.  
-
-<u>Data Cleaning and Preprocessing:</u>  
+    **b) Data Cleaning and Preprocessing:**  
 
     - Excel can be employed for basic data cleaning and preprocessing tasks, such as handling missing values or correcting minor data entry errors.  
     - It can also be used to create derived variables or perform simple transformations.  
 
-Benefits:  
+    **Benefits:**  
     - Quick visual inspection of data. 
-    - Identification of potential data quality issues. 
+    - Easy calculation of summary statistics. 
     - Creation of new variables or features as needed.  
 
 **2. Talend Data Preparation:**  
-Data Cleaning and Transformation:  
+    **a) Data Cleaning and Transformation:**  
     - Talend Data Preparation focuses on data cleaning, transformation, and enrichment. It allows users to explore, clean, and manipulate data interactively.  
     - Ideal for handling missing values, transforming variables, and ensuring data quality.  
 
-Data Exploration and Profiling:  
+    **b)Data Exploration and Profiling:**  
     - Provides data profiling capabilities to understand the structure, quality, and patterns within the dataset.  
 
-Benefits:  
+    **Benefits:**  
     - User-Friendly Interface: Enables users to visually explore and manipulate data without extensive coding.  
     - Data Quality Improvement: Helps improve the quality of data by addressing issues such as missing values and outliers.  
 
