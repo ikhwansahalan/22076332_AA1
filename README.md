@@ -10,7 +10,7 @@ The primary goal of this project is to predict customer churn within an e-commer
 ## 2. Objectives
 - Import the E-commerce Customer Behavior Dataset into SAS Enterprise Miner, handle missing values, and specify variable roles.
 - Create a decision tree model in SAS Enterprise Miner to analyze customer behavior and identify potential churn factors.
-- Apply bagging and boosting techniques using the Random Forest algorithm to enhance predictive accuracy in identifying customer churn.
+- Apply boosting technique using the Random Forest algorithm to enhance predictive accuracy in identifying customer churn.
 
 ## 3. Datasets
 
@@ -19,6 +19,7 @@ Title: E-commerce Customer Behavior Dataset
 Source: Kaggle - E-commerce Customer for Behavior Analysis
 
 Description: The dataset offers a comprehensive view of customer behavior within an e-commerce platform, providing insights into interactions and transactions. This detailed breakdown allows for a nuanced analysis of customer preferences, engagement patterns, and satisfaction levels, facilitating data-driven decisions to enhance the overall customer experience.
+
 Columns:
 
 1. Customer ID:
@@ -62,9 +63,8 @@ Columns:
   - Description: Indicates whether the customer has stopped purchasing (1 for churned, 0 for active).
     
 ## 4. Software
-In the context of the project described, SAS Enterprise Miner can play distinct roles in various stages of the data analysis and modeling process. SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
+In the context of the project described, SAS Enterprise Miner can play distinct roles in various stages of the data analysis and modeling process;
 
-Role:
 Advanced Analytics and Modeling:
   - SAS Enterprise Miner is primarily used for advanced analytics and predictive modeling. It provides a user-friendly interface for data mining, machine learning, and model deployment.
   - In this project, SAS Enterprise Miner can be used to build and evaluate classification models (such as decision trees and random forests) for predicting customer churn based on the provided dataset.
@@ -93,9 +93,9 @@ _Further details on the methodology and results are described in the report (Ikh
 ### Building Decision Trees
 1.	Automatically train a full decision tree and prune it to size, selecting split rules to maximize the split decision logworth.
 2.	Interactively train a decision tree, and then select candidate split rules from a list.
-3.	Use gradient boosting approach to form a single predictive model from a set of decision trees.
+3.	Use a gradient-boosting approach to form a single predictive model from a set of decision trees.
 ### Impute, Transform, Regression
-1.	Impute values to use as replacements for missing values in the input data. We replace missing data because Regression model ignore observations that contain missing values.
+1.	Impute values to use as replacements for missing values in the input data. We replace missing data because the Regression model ignores observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
 ### Comparing Models
