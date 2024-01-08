@@ -18,18 +18,18 @@ In the context of the project described, Excel Spreadsheet, Talend Data Preparat
 
 **1. Excel Spreadsheet**  
 Data Exploration and Initial Analysis:  
-===
+--------------------------------------
     - Excel can be used for the initial exploration of the dataset before importing it into SAS Enterprise Miner or other tools.  
     - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.  
 
 Benefits:  
-==
+----
     - Quick visual inspection of data.  
     - Easy calculation of summary statistics.  
     - Identification of potential data quality issues.  
 
 Data Cleaning and Preprocessing:
-=
+------------
     - Excel can be employed for basic data cleaning and preprocessing tasks, such as handling missing values or correcting minor data entry errors.  
     - It can also be used to create derived variables or perform simple transformations.  
 
