@@ -18,7 +18,7 @@ Title: E-commerce Customer Behavior Dataset
 
 Source: Kaggle - E-commerce Customer for Behavior Analysis
 
-Description: The dataset offers a comprehensive view of customer behavior within an e-commerce platform, providing insights into interactions and transactions. This detailed breakdown allows for a nuanced analysis of customer preferences, engagement patterns, and satisfaction levels, facilitating data-driven decisions to enhance the overall customer experience.
+Description: This dataset provides a comprehensive view of customer behavior within an e-commerce platform. Each entry in the dataset corresponds to a unique customer, offering a detailed breakdown of their interactions and transactions. The information is crafted to facilitate a nuanced analysis of customer preferences, engagement patterns, and satisfaction levels, aiding businesses in making data-driven decisions to enhance the customer experience. The target variable for this project will be the Churn variable. Its data type is Binomial and it indicates whether the customer has stopped purchasing (1 for churned, 0 for active). The rest of the independent variables consist of numeric, categorical, and Boolean as shown in the list below;
 
 Columns:
 
@@ -83,9 +83,14 @@ _Further details on the methodology and results are described in the report (Ikh
 ## 5. Methodology 
 
 ### Setting Up an Enterprise Miner Project
+Outline:
 1.	Create a new SAS Enterprise Miner Project
 2.	Create a new SAS Enterprise Miner process flow diagram
 3.	Place the input data source on the process flow diagram
+
+After collecting the dataset, a new project in SAS Enterprise Miner was set up. A new diagram was created in the project and placed the dataset into the File Import node as in the figure below;
+
+   
 ### Exploring Input Data and Replacing Missing Values
 1.	Explore the statistical properties of the variables in the input data set.
 2.	Partition the input data into Training and Test data sets.
