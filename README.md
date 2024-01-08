@@ -17,19 +17,19 @@ The primary goal of this project is to predict customer churn within an e-commer
 In the context of the project described, Excel Spreadsheet, Talend Data Preparation, and SAS Enterprise Miner play distinct roles in various stages of the data analysis and modeling process;  
 
 **1. Excel Spreadsheet**  
-Data Exploration and Initial Analysis:  
---------------------------------------
+<u>Data Exploration and Initial Analysis:</u>  
+
     - Excel can be used for the initial exploration of the dataset before importing it into SAS Enterprise Miner or other tools.  
     - Data analysts can quickly view and understand the structure of the dataset, check for any obvious issues, and perform preliminary descriptive statistics.  
 
-Benefits:  
-----
+<u>Benefits:</u>  
+
     - Quick visual inspection of data.  
     - Easy calculation of summary statistics.  
     - Identification of potential data quality issues.  
 
-Data Cleaning and Preprocessing:
-------------
+<u>Data Cleaning and Preprocessing:</u>  
+
     - Excel can be employed for basic data cleaning and preprocessing tasks, such as handling missing values or correcting minor data entry errors.  
     - It can also be used to create derived variables or perform simple transformations.  
 
