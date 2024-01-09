@@ -172,9 +172,13 @@ The Gradient Boosting node resamples the analysis data several times to generate
 
 ![Screenshot 2024-01-09 081145](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/15c81416-2b01-418a-9140-7a2bbed2dde2)
 
-The resulting tree model in Gradient Boosting has nine nodes, including five leaf nodes. The nodes are shaded from light to dark, which corresponds to the percentage of correctly classified observations in each node. Boosting is less prone to overfitting the data than a single tree.
+The resulting tree model in Gradient Boosting has nine nodes, including five leaf nodes. The nodes are shaded from light to dark, which corresponds to the percentage of correctly classified observations in each node. 
 
 ![Screenshot 2024-01-09 074741](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9fa2e8ce-e3ee-459c-933e-317ed0b5c124)
+
+Boosting is less prone to overfitting the data than a single tree. The classification table results of the gradient-boosting are shown below: 
+
+![Screenshot 2024-01-07 195827](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/ff4ebc22-e31e-4858-8963-20122f0afc5a)
 
 ### 5. Impute, Transform, Regression
 Outline:  
@@ -213,3 +217,5 @@ We have created three non-parametric models (Decision Tree, Interactive Decision
 ![Screenshot 2024-01-07 200129](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/14056b18-a89c-473b-a13f-04be38131262)
 
 ![Screenshot 2024-01-07 200312](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/aca3febf-ffb3-4055-80df-3b687c618d66)
+
+![Screenshot 2024-01-07 195827](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/ff4ebc22-e31e-4858-8963-20122f0afc5a)
