@@ -207,3 +207,6 @@ In the Regression node properties, we configure the Selection Model property to 
 ### 6. Comparing Models  
 Outline:  
 1. Compare the statistical performance and use that performance measure to select the champion model.
+
+We have created three non-parametric models (Decision Tree, Interactive Decision Tree, and Gradient Boosting) and one parametric candidate model (Regression). In this segment, we will compare the statistical performance of the four competing models to select the best one. We use the Model Compare node to evaluate the candidate models. Before that, we need to connect the Control Point node to the four models in the diagram. The Model Comparison node was then connected to the Control Point node as shown in the overall view of the workflow diagram. The results of the model comparison are shown in the Fit Statistics window. Note that the Gradient Boosting shows the greatest average profit statistic, and is selected as the champion model. The choice of the champion model is based on the highest selection criterion score. 
+...
