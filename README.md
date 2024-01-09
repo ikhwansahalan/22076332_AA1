@@ -157,14 +157,20 @@ After the data is partitioned, we extendedly prepare the data to replace some mo
 
 ![Screenshot 2024-01-07 194301](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/57d72f05-8b3d-412d-a88f-f5cf3f33e81a)
 
-### 4. Building Models
+### 4. Building Decision Tree Models
 Outline:
 1.	Automatically train a full decision tree and prune it to size, selecting split rules to maximize the split decision logworth.
 2.	Interactively train a decision tree, and then select candidate split rules from a list.
 3.	Use a gradient-boosting approach to form a single predictive model from a set of decision trees.
 
-We will add several decision tree models to our diagram, and then evaluate their relative performance. Before we create multiple decision tree models, we will insert a Control Point node in our diagram. After that, we will drag and connect different models to evaluate which are the best performance models between Decision Tree, Interactive Decision Tree, Gradient Boosting, and Regression. After configuring the properties and running the model, we will get the output result for each model. The examples are in the following diagram;
+We will add several decision tree models to our diagram, and then evaluate their relative performance. Before we create multiple decision tree models, we will insert a Control Point node in our diagram. After that, we will drag and connect different models to evaluate which are the best performance models between Decision Tree & Interactive Decision Tree. The Gradient Boosting model was added to the two decision tree models as in the process flow diagram below:
+
 ![Screenshot 2024-01-07 195732](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/799130d4-4ad8-404c-8368-e554d99a60b9)
+
+The Gradient Boosting node resamples the analysis data several times to generate results that form a weighted average of the resampled data set. Tree boosting creates a series of decision trees that form a single predictive model. In the Node group of the Gradient Boosting properties, we set the Number of Surrogate Rules to 2. This specifies the number of backup rules that are used in the event of missing data.
+
+
+The resulting tree model in Gradient Boosting has nine nodes, including five leaf nodes. The nodes are shaded from light to dark, which corresponds to the percentage of correctly classified observations in each node. Boosting is less prone to overfitting the data than a single tree.
 
 1
 ![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
