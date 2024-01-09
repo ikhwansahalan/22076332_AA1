@@ -135,6 +135,7 @@ Within the file import's 'Edit Variables' section, a few minor adjustments were 
 ![Screenshot 2024-01-08 215002](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9deacb07-e410-49c6-b391-434881d27da2)
 
 ### 3. Exploring Input Data and Replacing Missing Values
+Outline:  
 1.	Explore the statistical properties of the variables in the input data set.
 2.	Partition the input data into Training and Test data sets.
 3.	Specify how SAS Enterprise Miner should handle missing data.
@@ -180,6 +181,18 @@ Outline:
 1.	Impute values to use as replacements for missing values in the input data. We replace missing data because the Regression model ignores observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
-   
+
+Missing values are not problematic for decision trees. We can use surrogate splitting rules to select other variable values when splitting variable values are missing. However, in SAS Enterprise Miner, the regression model ignores observations that contain missing values. This reduces the size of the training data set, which can weaken the predictive power of this type of model. To overcome this issue, we had to impute missing values before training the models. The values of missing variables are replaced by the median of the non-missing values. The median statistic is less sensitive to extreme values than the mean or midrange statistic.
+...
+The Impute node creates new variables that contain the imputed values. Imputed variables in SAS results are identified by the prefix IMP_, as shown in the table below:
+...
+After imputing and replacing missing values, we transformed the input data before we submitted it to the Regression modeling nodes for better model fits. Transforming the data tends to stabilize variance, remove nonlinearity, improve additivity, and counter non-normality. The common log transformation is often used to control skewness. We selected four variables that had skewed distributions for a common log transformation. The Optimal Binning transformation on the other hand helps choose good interval boundaries for such data.
+...
+The data exported by the Transform Variables node contains new variables that were created for each transformation with an identifier for the transformation type that was used of LG10_,. After selecting all of the transformed variables, we then explore the histogram corresponding observations from the bar selected in the data set window.
+...
+
+In the Regression node properties, we configure the Selection Model property to use stepwise variable selection to build the logistic regression model. The regression node automatically performs logistic regression as the target variable is a binary outcome.
+
 ### 6. Comparing Models  
+Outline:  
 1. Compare the statistical performance and use that performance measure to select the champion model.
