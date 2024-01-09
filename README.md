@@ -169,8 +169,11 @@ We will add several decision tree models to our diagram, and then evaluate their
 
 The Gradient Boosting node resamples the analysis data several times to generate results that form a weighted average of the resampled data set. Tree boosting creates a series of decision trees that form a single predictive model. In the Node group of the Gradient Boosting properties, we set the Number of Surrogate Rules to 2. This specifies the number of backup rules that are used in the event of missing data.
 
+![Screenshot 2024-01-09 081145](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/15c81416-2b01-418a-9140-7a2bbed2dde2)
 
 The resulting tree model in Gradient Boosting has nine nodes, including five leaf nodes. The nodes are shaded from light to dark, which corresponds to the percentage of correctly classified observations in each node. Boosting is less prone to overfitting the data than a single tree.
+
+![Screenshot 2024-01-09 074741](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9fa2e8ce-e3ee-459c-933e-317ed0b5c124)
 
 1
 ![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
