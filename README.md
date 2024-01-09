@@ -183,15 +183,26 @@ Outline:
 3.	Create and add a logistic model.
 
 Missing values are not problematic for decision trees. We can use surrogate splitting rules to select other variable values when splitting variable values are missing. However, in SAS Enterprise Miner, the regression model ignores observations that contain missing values. This reduces the size of the training data set, which can weaken the predictive power of this type of model. To overcome this issue, we had to impute missing values before training the models. The values of missing variables are replaced by the median of the non-missing values. The median statistic is less sensitive to extreme values than the mean or midrange statistic.
-...
-The Impute node creates new variables that contain the imputed values. Imputed variables in SAS results are identified by the prefix IMP_, as shown in the table below:
-...
-After imputing and replacing missing values, we transformed the input data before we submitted it to the Regression modeling nodes for better model fits. Transforming the data tends to stabilize variance, remove nonlinearity, improve additivity, and counter non-normality. The common log transformation is often used to control skewness. We selected four variables that had skewed distributions for a common log transformation. The Optimal Binning transformation on the other hand helps choose good interval boundaries for such data.
-...
-The data exported by the Transform Variables node contains new variables that were created for each transformation with an identifier for the transformation type that was used of LG10_,. After selecting all of the transformed variables, we then explore the histogram corresponding observations from the bar selected in the data set window.
-...
 
-In the Regression node properties, we configure the Selection Model property to use stepwise variable selection to build the logistic regression model. The regression node automatically performs logistic regression as the target variable is a binary outcome.
+![Screenshot 2024-01-09 084127](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/ae982dfb-04d1-415d-9454-0a13d6f0e4cc)
+
+The Impute node creates new variables that contain the imputed values. Imputed variables in SAS results are identified by the prefix IMP_, as shown in the table below:
+
+![Screenshot 2024-01-09 084417](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7d324edd-bab6-4d1a-8e55-459156d56ff4)
+
+After imputing and replacing missing values, we transformed the input data before we submitted it to the Regression modeling nodes for better model fits. Transforming the data tends to stabilize variance, remove nonlinearity, improve additivity, and counter non-normality. The common log transformation is often used to control skewness. We selected four variables that had skewed distributions for a common log transformation. The Optimal Binning transformation on the other hand helps choose good interval boundaries for such data.
+
+![Screenshot 2024-01-09 085013](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/c1538164-09a4-4419-a361-7689515aa7f8)
+
+The data exported by the Transform Variables node contains new variables that were created for each transformation with an identifier for the transformation type that was used of LG10_,. After selecting all of the transformed variables, we then explore the histogram corresponding observations from the bar selected in the data set window.
+
+![Screenshot 2024-01-09 085428](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/87714450-ce16-411c-bce7-f0d793327aba)
+
+In the Regression node properties, we configure the Selection Model property to use stepwise variable selection to build the logistic regression model. The regression node automatically performs logistic regression as the target variable is a binary outcome. The results are as shown below:
+
+![Screenshot 2024-01-09 095104](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9743f63e-03fe-4689-a4e2-25edd83d7343)
+
+![Screenshot 2024-01-09 095825](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/b942e209-cb64-4e2b-9807-95bb789ddb48)
 
 ### 6. Comparing Models  
 Outline:  
