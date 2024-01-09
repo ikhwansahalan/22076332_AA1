@@ -175,33 +175,11 @@ The resulting tree model in Gradient Boosting has nine nodes, including five lea
 
 ![Screenshot 2024-01-09 074741](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9fa2e8ce-e3ee-459c-933e-317ed0b5c124)
 
-1
-![Screenshot 2024-01-07 190656](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/7352a2a2-4667-4348-a4f2-e83b90da20d9)
-2
-![Screenshot 2024-01-07 191932](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/a6735d95-8c42-4390-a3fe-283ff9f236f9)
-3
-![Screenshot 2024-01-07 192150](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/6163ad1f-c962-4d07-a7a3-b28e12cd02b9)
-4
-![Screenshot 2024-01-07 192211](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/1de3fe8a-11db-4ff6-af73-effaeaf9bf96)
-5
-![Screenshot 2024-01-07 192305](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/5f9da77e-d08e-4407-8243-934a13f4a6cb)
-6
-![Screenshot 2024-01-07 193626](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/53350d22-39f5-4819-a791-ededb39845cd)
-7
-![Screenshot 2024-01-07 194301](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/57d72f05-8b3d-412d-a88f-f5cf3f33e81a)
-8
-![Screenshot 2024-01-07 195721](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/5f135bed-0cfe-418b-8dae-adee47f1578d)
-9
-![Screenshot 2024-01-07 195732](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/799130d4-4ad8-404c-8368-e554d99a60b9)
-10
-![Screenshot 2024-01-07 195827](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/0ac855a2-1c83-4bb6-ad5d-6ef6339f0ff8)
-11
-![Screenshot 2024-01-07 200129](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/ddffbc5c-9cf4-472b-a7e3-e392e8906ce6)
-12
-![Screenshot 2024-01-07 200312](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/9716e515-9176-4121-b7bc-bab2990261fd)
 ### 5. Impute, Transform, Regression
+Outline:  
 1.	Impute values to use as replacements for missing values in the input data. We replace missing data because the Regression model ignores observations that contain missing values.
 2.	Transform the input variables to better suit the input data for regression analysis.
 3.	Create and add a logistic model.
-### 6. Comparing Models
+   
+### 6. Comparing Models  
 1. Compare the statistical performance and use that performance measure to select the champion model.
