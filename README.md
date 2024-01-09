@@ -219,3 +219,5 @@ We have created three non-parametric models (Decision Tree, Interactive Decision
 ![Screenshot 2024-01-07 200312](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/aca3febf-ffb3-4055-80df-3b687c618d66)
 
 ![Screenshot 2024-01-07 195827](https://github.com/ikhwansahalan/22076332_AA1/assets/143061425/ff4ebc22-e31e-4858-8963-20122f0afc5a)
+
+Based on the performance evaluation, the Gradient-boosting decision tree provides the best model for the training dataset. However, due to the possibility of outliers and noise, as well as the limited amount of data, the model provided is overfitted. This indicates further study with datasets with better representation, different models of different complexities, as well as different training approaches such as cross-validation techniques.
